@@ -1,0 +1,43 @@
+
+  Id     Duration CommandLine
+  --     -------- -----------
+   1        0.088 Set-Location -Path Joanie
+   2        0.003 Set-Location -Path /Users
+   3        0.023 Set-Location -Path /Joanie
+   4        0.003 Set-Location -Path /Users/Joanie
+   5        0.045 New-Item -ItemType Directory -Path /Users/Joanie -Nampe Folder Test1
+   6        0.020 New-Item -ItemType Directory -Path /Users/Joanie -Name Folder Test1
+   7        0.031 New-Item -ItemType Directory -Path /Users/Joanie -Name FolderTest1
+   8        0.004 New-Item -ItemType Directory -Path /Users/Joanie -Name FolderTest2
+   9        0.013 New-Item -ItemType File -Path /Users/Joanie -Name File1
+  10        0.003 New-Item -ItemType File -Path /Users/Joanie -Name File2
+  11        0.004 New-Item -ItemType File -Path /Users/Joanie -Name File3
+  12        0.004 New-Item -ItemType File -Path /Users/Joanie -Name File4
+  13        0.004 New-Item -ItemType File -Path /Users/Joanie -Name File5
+  14        0.032 ]
+  15        0.026 *
+  16        0.001 $Count = 6
+  17        0.011 Do…
+  18        0.013 Get-Location
+  19        0.003 Set-Location
+  20        0.021 New-Item New-Item -ItemType Directory -Path /Users/Joanie -Name OddFolder
+  21        0.005 New-Item -ItemType Directory -Path /Users/Joanie -Name OddFolder
+  22        0.003 New-Item -ItemType Directory -Path /Users/Joanie -Name EvenFolder
+  23        0.014 Move-item -Path Users/Joanie/FolderTest1/File1 -Destination C:\OddFolder
+  24        0.021 Move-item -Path Users/Joanie/FolderTest1/File1 -Destination C:\OddFolder
+  25        0.021 Move-item -Path Users/Joanie/FolderTest1/File1 -Destination /Users/Joanie/OddFolder
+  26        0.021 Move-item -Path /FolderTest1/File1 -Destination /OddFolder
+  27        0.004 Get-Location
+  28        0.004 Move-Item -Path /Users/Joanie/FolderTest1/File1 -Destination /Users/Joanie/OddFolder
+  29        0.003 Move-Item -Path /Users/Joanie/FolderTest1/File3 -Destination /Users/Joanie/OddFolder
+  30        0.002 Move-Item -Path /Users/Joanie/FolderTest1/File5 -Destination /Users/Joanie/OddFolder
+  31        0.018 Move-Item -Path /Users/Joanie/FolderTest1/File7 -Destination /Users/Joanie/OddFolder
+  32        0.005 Move-Item -Path /Users/Joanie/FolderTest2/File7 -Destination /Users/Joanie/OddFolder
+  33        0.003 Move-Item -Path /Users/Joanie/FolderTest2/File9 -Destination /Users/Joanie/OddFolder
+  34        0.003 Move-Item -Path /Users/Joanie/FolderTest1/File2 -Destination /Users/Joanie/EvenFolder
+  35        0.003 Move-Item -Path /Users/Joanie/FolderTest1/File4 -Destination /Users/Joanie/EvenFolder
+  36        0.019 Move-Item -Path /Users/Joanie/FolderTest1/File6 -Destination /Users/Joanie/EvenFolder
+  37        0.003 Move-Item -Path /Users/Joanie/FolderTest2/File6 -Destination /Users/Joanie/EvenFolder
+  38        0.002 Move-Item -Path /Users/Joanie/FolderTest2/File8 -Destination /Users/Joanie/EvenFolder
+  39        0.003 Move-Item -Path /Users/Joanie/FolderTest2/File10 -Destination /Users/Joanie/EvenFolder
+

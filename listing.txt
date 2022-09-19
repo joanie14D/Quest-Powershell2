@@ -1,0 +1,21 @@
+
+    Directory: /Users/Joanie/EvenFolder
+
+UnixMode   User             Group                 LastWriteTime           Size Name
+--------   ----             -----                 -------------           ---- ----
+-rw-r--r-- Joanie           staff              19/09/2022 16:12              0 File10
+-rw-r--r-- Joanie           staff              19/09/2022 16:08              0 File2
+-rw-r--r-- Joanie           staff              19/09/2022 16:08              0 File4
+-rw-r--r-- Joanie           staff              19/09/2022 16:12              0 File6
+-rw-r--r-- Joanie           staff              19/09/2022 16:12              0 File8
+
+    Directory: /Users/Joanie/OddFolder
+
+UnixMode   User             Group                 LastWriteTime           Size Name
+--------   ----             -----                 -------------           ---- ----
+-rw-r--r-- Joanie           staff              19/09/2022 16:08              0 File1
+-rw-r--r-- Joanie           staff              19/09/2022 16:08              0 File3
+-rw-r--r-- Joanie           staff              19/09/2022 16:09              0 File5
+-rw-r--r-- Joanie           staff              19/09/2022 16:12              0 File7
+-rw-r--r-- Joanie           staff              19/09/2022 16:12              0 File9
+
